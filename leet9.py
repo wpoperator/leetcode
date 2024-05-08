@@ -11,6 +11,7 @@ def isPalindrome(x: int) -> bool:
     return False
 
 
-print(isPalindrome(121))
-print(isPalindrome(-121))
-print(isPalindrome(10))
+# Test Cases
+print(isPalindrome(121))  # True
+print(isPalindrome(-121))  # False
+print(isPalindrome(10))  # False
