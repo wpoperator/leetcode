@@ -25,4 +25,4 @@ def moveZeroes(nums: list[int]) -> None:
 
 # Test Cases
 print(moveZeroes([0, 1, 0, 3, 12]))  # [0, 0, 1, 3, 12]
-# print(moveZeroes([0, 0, 1]))  # [0, 0, 1]
+print(moveZeroes([0, 0, 1]))  # [0, 0, 1]
