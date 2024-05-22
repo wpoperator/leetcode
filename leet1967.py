@@ -1,4 +1,4 @@
-# Leetcode quation 1967: Number of strings that appear as substrings in word
+# Leetcode question 1967: Number of strings that appear as substrings in word
 
 def numOfStrings(patterns: list[str], word: str) -> int:
     # count the number of substrings found
