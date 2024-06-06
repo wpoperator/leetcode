@@ -9,6 +9,6 @@ def findDelayedArrivalTime(arrivalTime: int, delayedTime: int) -> int:
 
 
 # Test Cases
-print(findDelayedArrivalTime(15, 5))
-print(findDelayedArrivalTime(13, 11))
-print(findDelayedArrivalTime(1, 24))
+print(findDelayedArrivalTime(15, 5))  # 20
+print(findDelayedArrivalTime(13, 11))  # 0
+print(findDelayedArrivalTime(1, 24))  # 1
