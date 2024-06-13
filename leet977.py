@@ -1,3 +1,5 @@
+# Leetcode question 977: Squares of a Sorted Array
+
 def sortedSquares(nums: list[int]) -> list[int]:
     # new list to append squared values of n to sort
     new_list = []
