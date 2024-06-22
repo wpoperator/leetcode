@@ -1,3 +1,5 @@
+# Leetcode question 2278: Percentage of leter in string
+
 def percentageLetter(s: str, letter: str) -> int:
     # count each time a character equals letter
     count = 0
