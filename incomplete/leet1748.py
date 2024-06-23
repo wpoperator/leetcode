@@ -1,17 +1,23 @@
+# Leetcode question 1748: Sum of unique elements
+
 def sumOfUnique(nums: list[int]) -> int:
-    # create sum to add non-duplicate values
-    nonduplicate_sum = 0
+    # create a separate list for all unique values
+    unique = []
+    # running sum of all unique values
+    run_sum = 0
     # loop through nums
-    for n in range(len(nums)):
-        print(nums[n])
-    #     removed = nums.pop(n)
-    #     if removed in nums:
-    #         continue
-    #     else:
-    #         nonduplicate_sum += removed
-    # return nonduplicate_sum
+    for n in nums:
+        # if n is not in unique
+        if n in unique:
+            continue
+        else:
+            # append n to unique
+            unique.append(n)    
+            # add n to sum
+            run_sum += n
+    # return run_sum
+    return run_sum
 
 
 # Test Cases
-# print(sumOfUnique([1, 2, 3, 2]))  # 4
-print(sumOfUnique([1, 1, 1, 1]))  # 0
+print(sumOfUnique([1, 2, 3, 2]))  # 4
