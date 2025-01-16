@@ -18,12 +18,12 @@ def majorityElement(nums: list[int]) -> int:
             letter_dict[n] += 1
 
     # find maximum value of all keys
-    maximum = max(letter_dict)
+    maximum = max(letter_dict, key=letter_dict.get)
     # return the maximum
     return maximum
 
 
 # Test Cases
-# print(majorityElement([3, 2, 3]))  # 3
-# print(majorityElement([2, 2, 1, 1, 1, 2, 2]))  # 2
+print(majorityElement([3, 2, 3]))  # 3
+print(majorityElement([2, 2, 1, 1, 1, 2, 2]))  # 2
 print(majorityElement([3, 3, 4]))  # 3
