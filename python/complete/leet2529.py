@@ -8,7 +8,7 @@ def maximumCount(nums: list[int]) -> int:
 
     # loop through nums
     for n in nums:
-        # skip any zeros
+        # skip any zeroes
         if n == 0:
             continue
         # check if current value of n is greater than zero
